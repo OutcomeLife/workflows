@@ -9,32 +9,35 @@ public class User implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "First Name")
+   @org.kie.api.definition.type.Label("First Name")
    private java.lang.String PRI_FIRSTNAME;
-   @org.kie.api.definition.type.Label(value = "Load Code")
+   @org.kie.api.definition.type.Label("Load Code")
    private java.lang.String PRI_CODE;
-   @org.kie.api.definition.type.Label(value = "Username")
+   @org.kie.api.definition.type.Label("Username")
    private java.lang.String PRI_USERNAME;
-   @org.kie.api.definition.type.Label(value = "Keycloak ID")
+   @org.kie.api.definition.type.Label("Keycloak ID")
    private java.lang.Integer PRI_KEYCLOAK_ID;
-   @org.kie.api.definition.type.Label(value = "Last Name")
+   @org.kie.api.definition.type.Label("Last Name")
    private java.lang.String PRI_LASTNAME;
-   @org.kie.api.definition.type.Label(value = "Date of birth")
+   @org.kie.api.definition.type.Label("Date of birth")
    private java.util.Date PRI_DOB;
-   @org.kie.api.definition.type.Label(value = "Street address with number")
+   @org.kie.api.definition.type.Label("Street address with number")
    private java.lang.String PRI_ADDRESS_STREET;
-   @org.kie.api.definition.type.Label(value = "Suburb")
+   @org.kie.api.definition.type.Label("Suburb")
    private java.lang.String PRI_ADDRESS_SUBURB;
-   @org.kie.api.definition.type.Label(value = "Postcode")
+   @org.kie.api.definition.type.Label("Postcode")
    private java.lang.Integer PRI_ADDRESS_POSTCODE;
-   @org.kie.api.definition.type.Label(value = "State")
+   @org.kie.api.definition.type.Label("State")
    private java.lang.String PRI_ADDRESS_STATE;
-   @org.kie.api.definition.type.Label(value = "Country")
+   @org.kie.api.definition.type.Label("Country")
    private java.lang.String PRI_ADDRESS_COUNTRY;
-   @org.kie.api.definition.type.Label(value = "Mobile Number")
+   @org.kie.api.definition.type.Label("Mobile Number")
    private java.lang.Long PRI_MOBILENUMBER;
-   @org.kie.api.definition.type.Label(value = "Account Type")
+   @org.kie.api.definition.type.Label("Account Type")
    private java.lang.Integer PRI_ROLE;
+
+   @org.kie.api.definition.type.Label(value = "Email")
+   private java.lang.String PRI_EMAIL;
 
    public User()
    {
@@ -170,6 +173,16 @@ public class User implements java.io.Serializable
       this.PRI_ROLE = PRI_ROLE;
    }
 
+   public java.lang.String getPRI_EMAIL()
+   {
+      return this.PRI_EMAIL;
+   }
+
+   public void setPRI_EMAIL(java.lang.String PRI_EMAIL)
+   {
+      this.PRI_EMAIL = PRI_EMAIL;
+   }
+
    public User(java.lang.String PRI_FIRSTNAME, java.lang.String PRI_CODE,
          java.lang.String PRI_USERNAME, java.lang.Integer PRI_KEYCLOAK_ID,
          java.lang.String PRI_LASTNAME, java.util.Date PRI_DOB,
@@ -177,8 +190,8 @@ public class User implements java.io.Serializable
          java.lang.String PRI_ADDRESS_SUBURB,
          java.lang.Integer PRI_ADDRESS_POSTCODE,
          java.lang.String PRI_ADDRESS_STATE,
-         java.lang.String PRI_ADDRESS_COUNTRY,
-         java.lang.Long PRI_MOBILENUMBER, java.lang.Integer PRI_ROLE)
+         java.lang.String PRI_ADDRESS_COUNTRY, java.lang.Long PRI_MOBILENUMBER,
+         java.lang.Integer PRI_ROLE, java.lang.String PRI_EMAIL)
    {
       this.PRI_FIRSTNAME = PRI_FIRSTNAME;
       this.PRI_CODE = PRI_CODE;
@@ -193,6 +206,7 @@ public class User implements java.io.Serializable
       this.PRI_ADDRESS_COUNTRY = PRI_ADDRESS_COUNTRY;
       this.PRI_MOBILENUMBER = PRI_MOBILENUMBER;
       this.PRI_ROLE = PRI_ROLE;
+      this.PRI_EMAIL = PRI_EMAIL;
    }
 
 }
