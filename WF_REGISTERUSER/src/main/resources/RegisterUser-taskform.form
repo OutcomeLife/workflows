@@ -1,0 +1,98 @@
+
+<form id="380338909">
+<property name="name" value="RegisterUser-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="11" name="user_PRI_ROLE" type="InputTextInteger" id="1271399435">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;PRI_ROLE (user)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="role/PRI_ROLE"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="4" name="user_PRI_ADDRESS_SUBURB" type="InputText" id="287917198">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;PRI_ADDRESS_SUBURB (user)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="role/PRI_ADDRESS_SUBURB"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="9" name="user_PRI_LASTNAME" type="InputText" id="1611504736">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;PRI_LASTNAME (user)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="role/PRI_LASTNAME"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="10" name="user_PRI_MOBILENUMBER" type="InputTextLong" id="759448841">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;PRI_MOBILENUMBER (user)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="role/PRI_MOBILENUMBER"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="7" name="user_PRI_FIRSTNAME" type="InputText" id="1986249708">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;PRI_FIRSTNAME (user)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="role/PRI_FIRSTNAME"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="user_PRI_CODE" type="InputText" id="1917296919">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;PRI_CODE (user)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="role/PRI_CODE"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="12" name="user_PRI_USERNAME" type="InputText" id="1406844584">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;PRI_USERNAME (user)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="role/PRI_USERNAME"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="user_PRI_ADDRESS_STREET" type="InputText" id="1620789391">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;PRI_ADDRESS_STREET (user)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="role/PRI_ADDRESS_STREET"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="user_PRI_ADDRESS_STATE" type="InputText" id="241307386">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;PRI_ADDRESS_STATE (user)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="role/PRI_ADDRESS_STATE"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="8" name="user_PRI_KEYCLOAK_ID" type="InputTextInteger" id="493371538">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;PRI_KEYCLOAK_ID (user)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="role/PRI_KEYCLOAK_ID"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="6" name="user_PRI_DOB" type="InputDate" id="1107180736">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;PRI_DOB (user)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="role/PRI_DOB"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="0" name="user_PRI_ADDRESS_COUNTRY" type="InputText" id="1679866079">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;PRI_ADDRESS_COUNTRY (user)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="role/PRI_ADDRESS_COUNTRY"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="user_PRI_ADDRESS_POSTCODE" type="InputTextInteger" id="1006290277">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;PRI_ADDRESS_POSTCODE (user)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="role/PRI_ADDRESS_POSTCODE"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<dataHolder inputId="role" name="#9BCAFA" type="dataModelerEntry" outId="" value="outcome.User" id="user"/>
+</form>
