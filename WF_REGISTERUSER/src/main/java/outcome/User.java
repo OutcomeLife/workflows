@@ -34,12 +34,12 @@ public class User implements java.io.Serializable
    @org.kie.api.definition.type.Label("Mobile Number")
    private java.lang.Long PRI_MOBILENUMBER;
    @org.kie.api.definition.type.Label("Account Type")
-   private java.lang.Integer PRI_ROLE;
+   private String PRI_ROLE;
 
    @org.kie.api.definition.type.Label("Email")
    private java.lang.String PRI_EMAIL;
 
-   @org.kie.api.definition.type.Label(value = "Password")
+   @org.kie.api.definition.type.Label("Password")
    private java.lang.String PRI_PASSWORD;
 
    public User()
@@ -166,16 +166,6 @@ public class User implements java.io.Serializable
       this.PRI_MOBILENUMBER = PRI_MOBILENUMBER;
    }
 
-   public java.lang.Integer getPRI_ROLE()
-   {
-      return this.PRI_ROLE;
-   }
-
-   public void setPRI_ROLE(java.lang.Integer PRI_ROLE)
-   {
-      this.PRI_ROLE = PRI_ROLE;
-   }
-
    public java.lang.String getPRI_EMAIL()
    {
       return this.PRI_EMAIL;
@@ -196,6 +186,16 @@ public class User implements java.io.Serializable
       this.PRI_PASSWORD = PRI_PASSWORD;
    }
 
+   public java.lang.String getPRI_ROLE()
+   {
+      return this.PRI_ROLE;
+   }
+
+   public void setPRI_ROLE(java.lang.String PRI_ROLE)
+   {
+      this.PRI_ROLE = PRI_ROLE;
+   }
+
    public User(java.lang.String PRI_FIRSTNAME, java.lang.String PRI_CODE,
          java.lang.String PRI_USERNAME, java.lang.Integer PRI_KEYCLOAK_ID,
          java.lang.String PRI_LASTNAME, java.util.Date PRI_DOB,
@@ -204,7 +204,7 @@ public class User implements java.io.Serializable
          java.lang.Integer PRI_ADDRESS_POSTCODE,
          java.lang.String PRI_ADDRESS_STATE,
          java.lang.String PRI_ADDRESS_COUNTRY, java.lang.Long PRI_MOBILENUMBER,
-         java.lang.Integer PRI_ROLE, java.lang.String PRI_EMAIL,
+         java.lang.String PRI_ROLE, java.lang.String PRI_EMAIL,
          java.lang.String PRI_PASSWORD)
    {
       this.PRI_FIRSTNAME = PRI_FIRSTNAME;
