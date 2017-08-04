@@ -1,0 +1,14 @@
+
+<form id="767703058">
+<property name="name" value="VerificationMethod-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="verification_method" type="InputText" id="877007556">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;out_verification_method (verification_method)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="out_verification_method"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="out_verification_method" value="java.lang.String" id="verification_method"/>
+</form>
