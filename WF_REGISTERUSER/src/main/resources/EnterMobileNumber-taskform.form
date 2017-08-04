@@ -1,0 +1,14 @@
+
+<form id="1928355845">
+<property name="name" value="EnterMobileNumber-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="mobile" type="InputText" id="2130763788">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;out_mobile (mobile)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="out_mobile"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#000000" type="basicType" outId="out_mobile" value="java.lang.String" id="mobile"/>
+</form>
